@@ -54,12 +54,13 @@ catalogs:
     react-dom:
       specifier: ^19.1.0
       version: 19.1.0
-    turbo:
-      specifier: ^2.5.8
-      version: 2.5.8
     typescript-eslint:
       specifier: ^8.40.0
       version: 8.40.0
+  turbo:
+    turbo:
+      specifier: 2.5.8
+      version: 2.5.8
 
 importers:
 
@@ -69,7 +70,7 @@ importers:
         specifier: 'catalog:'
         version: 3.6.2
       turbo:
-        specifier: 'catalog:'
+        specifier: catalog:turbo
         version: 2.5.8
       typescript:
         specifier: 5.9.2
@@ -108,9 +109,6 @@ importers:
       eslint:
         specifier: 'catalog:'
         version: 9.34.0
-      turbo:
-        specifier: 'catalog:'
-        version: 2.5.8
       typescript:
         specifier: 5.9.2
         version: 5.9.2
@@ -148,9 +146,6 @@ importers:
       eslint:
         specifier: 'catalog:'
         version: 9.34.0
-      turbo:
-        specifier: 'catalog:'
-        version: 2.5.8
       typescript:
         specifier: 5.9.2
         version: 5.9.2
