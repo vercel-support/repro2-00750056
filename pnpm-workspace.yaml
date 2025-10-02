@@ -18,5 +18,8 @@ catalog:
   prettier: ^3.6.2
   react: ^19.1.0
   react-dom: ^19.1.0
-  turbo: ^2.5.8
   typescript-eslint: ^8.40.0
+
+catalogs:
+  turbo:
+    turbo: 2.5.8
